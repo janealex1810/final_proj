@@ -9,6 +9,12 @@
 - pages/ — PageObject классы для UI
 - utils/ — фикстуры и хелперы
 
+## Настройка окружения
+
+1. Получить API ключ на https://kinopoisk.dev/
+2. Прописать ваш токен в файле test_data.py
+3. Установить зависимости: `pip install -r requirements.txt`
+
 ## Запуск
 - Только UI: `pytest -m ui`
 - Только API: `pytest -m api`

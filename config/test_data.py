@@ -1,6 +1,6 @@
 TEST_USER = {
-    "login": "test@example.com",
-    "password": "password123"
+    "login": "test@example.com",  # Для тестов авторизации
+    "password": "password123"     # (если будет реализовано)
 }
 
-API_TOKEN = "demo_token_123"
+API_TOKEN = "ваш_действительный_токен"  # Получить на kinopoisk.dev
